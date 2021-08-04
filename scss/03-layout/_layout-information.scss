@@ -23,9 +23,9 @@
                     margin-block: $_mg-block;
                     font-size: 4rem;
                 }
-                @include thm.less-query($device: 'desktop', $size: 'md') {
+                @include thm.less-query($device: 'desktop', $size: 'sm') {
                     margin: 4rem auto 2rem;
-                    padding-inline-end: 10rem;
+                    padding-inline-end: 5rem;
                     font-size: 4.6rem;
                 }
             }
@@ -41,7 +41,7 @@
                     $_mg-block: .5rem;
                     margin-block: $_mg-block;
                 }
-                @include thm.less-query($device: 'desktop', $size: 'md') {
+                @include thm.less-query($device: 'desktop', $size: 'sm') {
                     margin-block: 0;
                     font-size: 1.75rem;
                 }

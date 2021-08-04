@@ -31,7 +31,7 @@
     @include thm.less-query($device: 'tablet', $size: 'lg') {
         grid-column: 1 / -1;
     }
-    @include thm.less-query($device: 'desktop', $size: 'md') {
+    @include thm.less-query($device: 'desktop', $size: 'sm') {
         @include thm.less-flexbox($jt-content: center, $al-items: flex-start);
     }
 

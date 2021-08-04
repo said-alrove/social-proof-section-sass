@@ -14,10 +14,10 @@
     }
     @include thm.less-query($device: 'tablet', $size: 'lg') {
         @include thm.less-grid($rows: repeat(2, auto), $cols: 2fr 3fr, $col-gap: 5rem);
-        max-inline-size: 80vw;
+        max-inline-size: min(130rem, 80vw);
         padding: 0;
     }
-    @include thm.less-query($device: 'desktop', $size: 'md') {
+    @include thm.less-query($device: 'desktop', $size: 'sm') {
         @include thm.less-grid($cols: 4fr 5fr, $gap: 5rem);
     }
 }
