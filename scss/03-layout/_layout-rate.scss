@@ -39,7 +39,7 @@
                 }
             }
 
-            &__heading > h3 {
+            &__heading > h2 {
                 font-size: 1.4rem;
                 color: map.get(thm.$clr, 'magenta-300');
                 @include thm.less-query($device: 'tablet', $size: 'sm') {

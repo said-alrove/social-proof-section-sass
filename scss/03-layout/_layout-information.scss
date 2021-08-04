@@ -14,7 +14,7 @@
     @at-root {
         .information {
             $_mg-block: .75em;
-            &__heading > h2 {
+            &__heading > h1 {
                 margin-block: $_mg-block;
                 font-size: 3rem;
                 color: map.get(thm.$clr, 'magenta-300');
