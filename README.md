@@ -1,6 +1,6 @@
 # Frontend Mentor - Social proof section component solution
 
-This is a solution to the [Profile card component](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ/hub/profile-card-component-V_W91T3Q5). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Social proof section](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Screenshot
 
@@ -8,8 +8,8 @@ This is a solution to the [Profile card component](https://www.frontendmentor.io
 
 ## Links
 
-- [Frontend Mentor](https://www.frontendmentor.io/solutions/profile-card-component-using-flexbox-and-position-A_OgSM9LR)
-- [Github Live](https://said-alrove.github.io/profile-card-component/)
+- [Frontend Mentor](https://www.frontendmentor.io/solutions/social-proof-section-using-smacss-kB1daTm4Q)
+- [Github Live](https://said-alrove.github.io/social-proof-section-sass/)
 
 ## Author
 
