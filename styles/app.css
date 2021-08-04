@@ -7,14 +7,14 @@ html {
 body {
   font-family: "Spartan";
   font-size: 16px;
-  background-image: url("/assets/svg/bg-pattern-top-mobile.svg"), url("/assets/svg/bg-pattern-bottom-mobile.svg");
+  background-image: url("https://said-alrove.github.io/social-proof-section-sass/assets/svg/bg-pattern-top-mobile.svg"), url("https://said-alrove.github.io/social-proof-section-sass/assets/svg/bg-pattern-bottom-mobile.svg");
   background-repeat: no-repeat;
   background-position: top left, bottom -1rem right;
   background-attachment: fixed;
 }
 @media (min-width: 622px) {
   body {
-    background-image: url("/assets/svg/bg-pattern-top-desktop.svg"), url("/assets/svg/bg-pattern-bottom-desktop.svg");
+    background-image: url("https://said-alrove.github.io/social-proof-section-sass/assets/svg/bg-pattern-top-desktop.svg"), url("https://said-alrove.github.io/social-proof-section-sass/assets/svg/bg-pattern-bottom-desktop.svg");
   }
 }
 
