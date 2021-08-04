@@ -47,7 +47,7 @@ body {
     padding: 0;
   }
 }
-@media (min-width: 1440px) {
+@media (min-width: 1330px) {
   .wrapper {
     display: grid;
     grid-template-columns: 4fr 5fr;
@@ -66,29 +66,35 @@ body {
   }
 }
 .information__heading > h1 {
-  margin-block: 0.75em;
+  margin-block: 2.25rem;
   font-size: 3rem;
   color: #502050;
 }
 @media (min-width: 1080px) {
   .information__heading > h1 {
+    margin-block: 4.5rem 3rem;
     font-size: 4rem;
   }
 }
-@media (min-width: 1440px) {
+@media (min-width: 1330px) {
   .information__heading > h1 {
-    margin: 0.5em auto;
-    padding-inline-end: 2em;
-    font-size: 5rem;
+    margin: 4rem auto 2rem;
+    padding-inline-end: 10rem;
+    font-size: 4.6rem;
   }
 }
 .information__paragraph > p {
-  margin-block: 0.75em;
+  margin-block: 4.5rem 3rem;
   font-size: 1.45rem;
   font-weight: 500;
   color: #937b92;
 }
-@media (min-width: 1440px) {
+@media (min-width: 1080px) {
+  .information__paragraph > p {
+    margin-block: 0.5rem;
+  }
+}
+@media (min-width: 1330px) {
   .information__paragraph > p {
     margin-block: 0;
     font-size: 1.75rem;
@@ -119,7 +125,7 @@ body {
     margin-inline-start: 15%;
   }
 }
-@media (min-width: 1440px) {
+@media (min-width: 1330px) {
   .rate__stars {
     display: flex;
     padding: 2rem;
@@ -129,9 +135,9 @@ body {
   margin-block: 0.6rem 1.2rem;
   padding-inline: 2.2rem;
 }
-@media (min-width: 1440px) {
+@media (min-width: 1330px) {
   .rate__heading {
-    margin: 0 2.4rem;
+    margin: 0 0.5rem;
     padding-inline: 0;
   }
 }
@@ -150,7 +156,7 @@ body {
   margin-block: 1.2rem 0.6rem;
   inline-size: 40%;
 }
-@media (min-width: 1440px) {
+@media (min-width: 1330px) {
   .stars-container {
     margin: 0 1.75rem;
     inline-size: 30%;
@@ -178,7 +184,7 @@ body {
     grid-column: 1/-1;
   }
 }
-@media (min-width: 1440px) {
+@media (min-width: 1330px) {
   .testimonials-container {
     display: flex;
     justify-content: center;
@@ -198,17 +204,17 @@ body {
     margin-inline: auto;
   }
 }
-@media (min-width: 1440px) {
+@media (min-width: 1330px) {
   .testimonials__box {
     flex-basis: 30%;
   }
 }
-@media (min-width: 1440px) {
+@media (min-width: 1330px) {
   .testimonials__box:nth-child(2) {
     margin-block-start: 6vh;
   }
 }
-@media (min-width: 1440px) {
+@media (min-width: 1330px) {
   .testimonials__box:nth-child(3) {
     margin-block-start: 12vh;
   }
@@ -272,7 +278,7 @@ body {
     grid-column: 1/-1;
   }
 }
-@media (min-width: 1440px) {
+@media (min-width: 1330px) {
   .testimonials-container {
     display: flex;
     justify-content: center;

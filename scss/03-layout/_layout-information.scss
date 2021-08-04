@@ -13,18 +13,20 @@
 
     @at-root {
         .information {
-            $_mg-block: .75em;
+            $_mg-block: 2.25rem;
             &__heading > h1 {
                 margin-block: $_mg-block;
                 font-size: 3rem;
                 color: map.get(thm.$clr, 'magenta-300');
                 @include thm.less-query($device: 'tablet', $size: 'lg') {
+                    $_mg-block: 4.5rem 3rem;
+                    margin-block: $_mg-block;
                     font-size: 4rem;
                 }
                 @include thm.less-query($device: 'desktop', $size: 'md') {
-                    margin: .5em auto;
-                    padding-inline-end: 2em;
-                    font-size: 5rem;
+                    margin: 4rem auto 2rem;
+                    padding-inline-end: 10rem;
+                    font-size: 4.6rem;
                 }
             }
 
@@ -35,6 +37,10 @@
                     weight: 500;
                 }
                 color: map.get(thm.$clr, 'magenta-200');
+                @include thm.less-query($device: 'tablet', $size: 'lg') {
+                    $_mg-block: .5rem;
+                    margin-block: $_mg-block;
+                }
                 @include thm.less-query($device: 'desktop', $size: 'md') {
                     margin-block: 0;
                     font-size: 1.75rem;
