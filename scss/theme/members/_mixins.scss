@@ -1,0 +1,8 @@
+//********************************* 
+//* MIXINS
+//*********************************
+@mixin background($device: 'mobile') {
+    background-image: 
+            url('/assets/svg/bg-pattern-top-#{$device}.svg'),
+            url('/assets/svg/bg-pattern-bottom-#{$device}.svg');
+}
