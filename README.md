@@ -11,7 +11,7 @@ This is a solution to the [Social proof section](https://www.frontendmentor.io/c
 ## Links
 
 - [Frontend Mentor](https://www.frontendmentor.io/solutions/social-proof-section-using-smacss-kB1daTm4Q)
-- [Netlify](https://spss-116928.netlify.app/)
+- [Netlify](https://spss-7c99df.netlify.app/)
 
 ## Author
 
